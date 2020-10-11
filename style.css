@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+@page {
+  size: auto;
+}
+
+body {
+  margin: 1rem;
+}
+
+/* reusable - heading*/
+ul {
+  list-style: square;
+  margin-left: 1rem;
+}
+
+ul li{
+  font-size: 0.9rem;
+}
+
+.bold-italic {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.recipient p {
+  margin-bottom: 0;
+}
+
+p{
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+/* top section */
+.top-section {
+  background: #363c47;
+  padding: 2rem;
+  color: #fff;
+}
+
+.top-section h1 {
+  font-size: 3rem;
+}
+
+/* bottom section */
+.bottom-section {
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+}
+
+.body {
+  margin-bottom: 1.5rem;
+}
+
+.body h4 {
+  display: inline-block;
+}
+
+.body .date {
+  display: block;
+}
+
+.grey-text, .body a { 
+  color: grey;
+}
+
+.body ul {
+  margin: 0.5rem 0 0.5rem 1rem;  
+}
+
+/* left section */
+.left-section {
+  padding: 2rem 2rem;
+}
+
+/* right section */
+.right-section {
+  background: #f3f3f3;
+  height: calc(100vh - 274px);
+  padding:2rem 1rem;
+}
+
+.section__container{
+  margin-bottom: 1.5rem;
+}
+
+span {
+  font-size: 0.9rem;
+}
+
+.heading {
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 0.5rem;
+}
+
+.contact-section{
+  margin: 0.8rem 0;
+}
+
+.regarding {
+  margin: 1.5rem 0;
+}
+
+a {
+  color: black;
+}

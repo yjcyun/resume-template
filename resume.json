@@ -1,0 +1,109 @@
+{
+  "name": "Christina Yun",
+  "title": "Frontend Web Developer",
+  "sections": ["Work Experience", "Projects"],
+  "workExperiences": [
+    {
+      "id": 0,
+      "title": "Frontend Developer",
+      "company": "Star Poly Tech Inc.",
+      "site": "https://www.ei2i.com",
+      "period": "Jul 2020 - Aug 2020",
+      "desc": [
+        "Developed intuitive frontend experiences with modern and user-friendly interfaces using JavaScript, jQuery, HTML, CSS, Bootstrap, and Django",
+        "Implemented secure login using JWT user authentication",
+        "Drove usage and adoption by improving accessibility with responsive web design for mobile and desktop clients"
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Frontend Developer",
+      "company": "Contract",
+      "site": "https://heatherdick.ca",
+      "period": "June 2020 - July 2020 ",
+      "desc": [
+        "Improved engagement for a well known Toronto area theatre actor by re-designing her portfolio using Gatsby,Styled Components, and GraphQL.",
+        "Implemented user friendly CMS (Strapi) for client to update site content.",
+        "Improved communication with client by creating mockups using AdobeXD"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Frontend Developer",
+      "company": "Freelance",
+      "site": "",
+      "period": "January 2020 - Current ",
+      "desc": [
+        "Consult with clients to outline website goals, illustrate wire frame, and site functionality. Maintain website by updating content, implementing new technology and monitoring performance"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": 0,
+      "title": "ReactFit & Co.",
+      "desc": "E-commerce",
+      "site": "https://reactfitandco.herokuapp.com",
+      "stacks": "MongoDB, Node, Express, React, React Router DOM, Redux, Styled Components, Heroku"
+    },
+    {
+      "id": 1,
+      "title": "Adopt, Don't Shop",
+      "desc": "Dog Adoption Website",
+      "site": "https://react-adopt-dog.netlify.app",
+      "stacks": "React, Styled Components"
+    },
+    {
+      "id": 2,
+      "title": "Frontend Mentor Challenges",
+      "desc": "",
+      "site": "https://root-page.vercel.app",
+      "stacks": "Javascript, HTML, CSS"
+    }
+  ],
+  "personalInfo": [
+    {
+      "title": "Address",
+      "desc": "Toronto, ON M2M 2J6"
+    },
+    {
+      "title": "Phone",
+      "desc": "416 270 8912"
+    },
+    {
+      "title": "E-mail",
+      "desc": "christina5707@gmail.com"
+    },
+    {
+      "title": "Websites",
+      "link1": "https://christinayun.ca",
+      "link2": "https://github.com/yjcyun"
+    }
+  ],
+  "skills": [
+    "HTML5 & CSS3/Sass",
+    "Bootstrap & SemanticUI",
+    "Styled Components",
+    "Javascript",
+    "React & Redux",
+    "React Router DOM",
+    "Gatsby & GraphQL",
+    "Node & Express",
+    "MongoDB & Mongoose",
+    "Firebase",
+    "Strapi & Contentful",
+    "Git"
+  ],
+  "education": [
+    {
+      "degree": "Diploma in Verterinary Technology",
+      "school": "Seneca Collage",
+      "locationYear": "King, ON / 2015"
+    },
+    {
+      "degree": "B.S.Biological Science",
+      "school": "University of Guelph",
+      "locationYear": "Guelph, ON / 2013"
+    }
+  ]
+}
