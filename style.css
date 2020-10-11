@@ -6,10 +6,6 @@
   font-family: 'Poppins', sans-serif;
 }
 
-@page {
-  size: auto;
-}
-
 body {
   margin: 1rem;
 }
