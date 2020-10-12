@@ -6,71 +6,74 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Custom CSS -->
   <link rel="stylesheet" href="style.css">
-  <!-- Google Fonts -->
-  <script src="https://kit.fontawesome.com/b0a31ff84e.js" crossorigin="anonymous"></script>
 
   <title>Resume Template</title>
 </head>
 
 <body>
   <!-- name section -->
-  <div class="top-section" id='top'>
+  <div class="name" id='top'>
   </div>
-  <!-- / name section -->
+  <!-- /name section -->
 
-  <!-- body section -->
-  <div class="bottom-section">
-    <!-- main section -->
-    <div class="left-section">
-      <div class='section__container'>
+  <!-- main-grid section -->
+  <div class="grid">
+    <!-- left grid -->
+    <main>
+      <div class='grid__container'>
         <div class="heading">
           <h2>Work Experience</h2>
         </div>
         <div id='work-experience'>
+          <!-- data injected from js -->
         </div>
       </div>
 
-      <div class='section__container'>
+      <div class='grid__container'>
         <div class="heading">
           <h2>Projects</h2>
         </div>
         <div id='projects'>
+          <!-- data injected from js -->
         </div>
       </div>
-    </div>
-    <!-- /main section -->
+    </main>
+    <!-- /left grid -->
 
-    <!-- right section -->
-    <div class="right-section">
+    <!-- right grid -->
+    <aside>
       <!-- contact -->
-      <div class='section__container'>
+      <div class='grid__container'>
         <div class="heading">
           <h3>Contact</h3>
         </div>
         <div id='contact'>
+          <!-- data injected from js -->
         </div>
       </div>
       <!-- /contact -->
       <!-- programs -->
-      <div class='section__container'>
+      <div class='grid__container'>
         <div class="heading">
           <h3>Programs</h3>
         </div>
         <ul id='programs'>
+          <!-- data injected from js -->
         </ul>
       </div>
       <!-- /programs -->
       <!-- education -->
-      <div class='section__container'>
+      <div class='grid__container'>
         <div class="heading">
           <h3>Education</h3>
         </div>
         <div id='education'>
+          <!-- data injected from js -->
         </div>
       </div>
       <!-- /education -->
-    </div>
-    <!-- end of right section -->
+    </aside>
+    <!-- /right grid -->
   </div>
   <!-- /body section -->
   <script type='module' src='app.js'></script>

@@ -3,50 +3,41 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
 }
 
 body {
   margin: 1rem;
+  font-size: 0.9rem;
+  font-family: 'Poppins', sans-serif;
 }
 
-/* reusable - heading*/
 ul {
   list-style: square;
   margin-left: 1rem;
 }
 
-ul li{
-  font-size: 0.9rem;
-}
-
-.bold-italic {
-  font-weight: bold;
-  font-style: italic;
-}
-
-.recipient p {
-  margin-bottom: 0;
+a {
+  color: black;
 }
 
 p{
-  font-size: 0.9rem;
   margin-bottom: 1rem;
 }
 
-/* top section */
-.top-section {
+/* name section */
+.name {
   background: #363c47;
   padding: 2rem;
   color: #fff;
 }
 
-.top-section h1 {
+.name h1 {
   font-size: 3rem;
 }
 
 /* bottom section */
-.bottom-section {
+.grid {
   display: grid;
   grid-template-columns: 5fr 2fr;
 }
@@ -71,24 +62,8 @@ p{
   margin: 0.5rem 0 0.5rem 1rem;  
 }
 
-/* left section */
-.left-section {
-  padding: 2rem 2rem;
-}
-
-/* right section */
-.right-section {
-  background: #f3f3f3;
-  height: calc(100vh - 274px);
-  padding:2rem 1rem;
-}
-
-.section__container{
+.grid__container{
   margin-bottom: 1.5rem;
-}
-
-span {
-  font-size: 0.9rem;
 }
 
 .heading {
@@ -96,14 +71,19 @@ span {
   margin-bottom: 0.5rem;
 }
 
-.contact-section{
+/* left grid */
+main {
+  padding: 2rem 2rem 0;
+}
+
+/* right grid */
+aside {
+  background: #f3f3f3;
+  /* height: calc(100vh - 210px); */
+  height: 100%;
+  padding:2rem 1rem;
+}
+
+.contact__container{
   margin: 0.8rem 0;
-}
-
-.regarding {
-  margin: 1.5rem 0;
-}
-
-a {
-  color: black;
 }

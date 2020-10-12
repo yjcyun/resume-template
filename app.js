@@ -22,8 +22,8 @@ function displayWorkExperience(data) {
       <div class='body'>
         <h4>${title}</h4>
         <span class='grey-text'>${company}  ${site && `- <a href=${site}>${displayLink(site)}</a>`}</span>
-        <span class="date">${period}</span>
-        <div class="job-des">
+        <span class='date'>${period}</span>
+        <div class='job-des'>
           <ul>
            ${descList}
           </ul>
@@ -44,7 +44,7 @@ function displayProjects(data) {
       <div class='body'>
         <h4>${title}</h4>
         <span class='grey-text'>${desc} - <a href=${site}>${displayLink(site)}</a></span>
-        <span class="date">${stacks}</span>
+        <span class='date'>${stacks}</span>
       </div>
     `
   });
@@ -62,12 +62,12 @@ function displayContact(data) {
     const { title, desc, link1, link2 } = info;
     contact.innerHTML += `
       ${title === 'Websites'
-        ? `<div class="contact-section">
+        ? `<div class='contact__container'>
             <h5>${title}</h5>
             <span><a href=${link1}>${displayLink(link1)}</a></span><br/>
             <span><a href=${link2}>${displayLink(link2)}</a></span>
           </div>`
-        : `<div class="contact-section">
+        : `<div class='contact-section'>
             <h5>${title}</h5>
             <p>${desc}</p>
           </div>`
@@ -93,7 +93,7 @@ function displayEducation(data) {
     const { degree, school, locationYear } = edu;
 
     education.innerHTML += `
-      <div class="contact-section">
+      <div class='contact-section'>
         <h5>${degree}</h5>
         <p>${school}</br>${locationYear}</p>
       </div>
