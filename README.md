@@ -8,4 +8,4 @@
 
 🖨️ Print and save as a pdf file. Adjust scale and margin to fit in one page. 
 
-![Resume template](/screenshot.png);
+![Resume template](/screenshot.png)
